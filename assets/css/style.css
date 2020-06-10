@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1;
   padding: 10px;
@@ -10,8 +10,8 @@ textarea{
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+  /* border-left: 1px solid black; */
+  padding: 12px;
 }
 
 .jumbotron {
@@ -19,7 +19,7 @@ textarea{
   background-color: rgb(132, 158, 93);
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid rgb(153, 190, 132);
+  border-bottom: 10px solid black;
 }
 
 .description{
@@ -35,6 +35,11 @@ textarea{
   border: 2px solid black;
 }
 
+.inputBoxHr {
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 8px;
+}
 .row {
   white-space: pre-wrap;
   height: 80px;
@@ -63,13 +68,18 @@ textarea{
 }
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  /* border-left: 1px solid black; */
+  border-radius: 8px;
+  background-color: rgb(54, 213, 6);
   color: white;
 }
 
+.clearAll {
+  /* border-left: 1px solid black; */
+  border-radius: 8px;
+  margin-left: 15px;
+  color: white;
+}
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
