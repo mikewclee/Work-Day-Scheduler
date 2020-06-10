@@ -84,3 +84,36 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+/*Mobile Styling*/
+@media (max-width: 500px) {
+  .btn {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .display-3 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    line-height: 1.2;
+  }
+
+  .description{
+    float: right;
+    max-width: 60%;
+  }
+  
+  .time-block{
+    float:right;
+  }
+
+  .hour {
+    min-width: 20%;
+  }
+
+  .saveBtn {
+    float: right;
+    min-width: 20%;
+  }
+
+} 
